@@ -1,7 +1,8 @@
 *{
    margin: 0;
    padding: 0;
-   font-family:  sans-serif;
+   font-family:  sans-serif;  
+   
 }
 
 ul{
@@ -14,7 +15,34 @@ a {
     text-decoration: none;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    
+}
+.list-items li a{
+    color: #fff;
+}
+
+header .list-items{
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+  
+}
+
+header .menu{
+
+    justify-content: space-between;
 }
